@@ -111,7 +111,6 @@ class SortingRobot:
                 if self.can_move_right():
                     self.swap_item()
                     self.move_right()
-                    print(self._list)
                     self.sort()
                 else:
                     self.set_light_off()
